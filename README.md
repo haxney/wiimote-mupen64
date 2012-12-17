@@ -19,7 +19,7 @@ Steps to get it working
 
 2. Install `wminput` with
 
-       sudo apt-get install wminput
+        sudo apt-get install wminput
 
 3. Copy `52-wiimote.rules` to `/etc/udev/rules.d/`. You'll have to restart
    `udev` for it to take effect, but I had to restart the whole computer.
@@ -32,7 +32,7 @@ Steps to get it working
 
 6. Launch `wminput` with
 
-       wminput -c wmconfig -r -w
+        wminput -c wmconfig -r -w
 
 7. Put the Wiimote in discoverable mode by pressing `1` and `2` simultaneously.
    After a few seconds, `wminput` should print `Ready.` to the console.
