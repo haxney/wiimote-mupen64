@@ -23,21 +23,21 @@ Nunchuk.Stick.X = ABS_HAT0X # (Axis 0)
 Nunchuk.Stick.Y = ABS_HAT0Y # (Axis 1)
 
 # I don't have a classic controller, so I don't know whether this works or not
-Classic.Up      = KEY_UP
-Classic.Down    = KEY_DOWN
-Classic.Left    = KEY_LEFT
-Classic.Right   = KEY_RIGHT
-Classic.Minus   = KEY_BACK
-Classic.Plus    = KEY_FORWARD
-Classic.Home    = KEY_HOME
-Classic.A       = BTN_LEFT
-Classic.B       = BTN_RIGHT
-#Classic.X      =
-#Classic.Y      =
-#Classic.ZL     =
-#Classic.ZR     =
-#Classic.L      =
-#Classic.R      =
+# Classic.Up    = KEY_UP
+# Classic.Down  = KEY_DOWN
+# Classic.Left  = KEY_LEFT
+# Classic.Right = KEY_RIGHT
+# Classic.Minus = KEY_BACK
+# Classic.Plus  = KEY_FORWARD
+# Classic.Home  = KEY_HOME
+# Classic.A     = BTN_LEFT
+# Classic.B     = BTN_RIGHT
+# Classic.X     =
+# Classic.Y     =
+# Classic.ZL    =
+# Classic.ZR    =
+# Classic.L     =
+# Classic.R     =
 
 # I haven't tested this yet
 Wiimote.Rumble  = On
