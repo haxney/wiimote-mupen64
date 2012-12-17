@@ -1,0 +1,43 @@
+# Number in parens is the button id that SDL assigns
+
+# I use `BTN_*` instead of `KEY_*` so that Wiimote button presses do not have
+# any other interactions with the system
+Wiimote.A       = BTN_A       # (4)
+Wiimote.B       = BTN_B       # (5)
+Wiimote.Up      = BTN_BASE    # (0)
+Wiimote.Down    = BTN_BASE2   # (1)
+Wiimote.Left    = BTN_BASE3   # (2)
+Wiimote.Right   = BTN_BASE4   # (3)
+Wiimote.Minus   = BTN_BACK    # (14)
+Wiimote.Plus    = BTN_FORWARD # (13)
+Wiimote.Home    = BTN_START   # (10)
+Wiimote.1       = BTN_X       # (7)
+Wiimote.2       = BTN_Y       # (8)
+
+Nunchuk.C       = BTN_C       # (6)
+Nunchuk.Z       = BTN_Z       # (9)
+
+# Using `ABS_HAT0X` binds the nunchuck stick to a joystick. If `ABS_X` was used
+# instead, the joystick would move the mouse (which I don't want).
+Nunchuk.Stick.X = ABS_HAT0X # (Axis 0)
+Nunchuk.Stick.Y = ABS_HAT0Y # (Axis 1)
+
+# I don't have a classic controller, so I don't know whether this works or not
+Classic.Up      = KEY_UP
+Classic.Down    = KEY_DOWN
+Classic.Left    = KEY_LEFT
+Classic.Right   = KEY_RIGHT
+Classic.Minus   = KEY_BACK
+Classic.Plus    = KEY_FORWARD
+Classic.Home    = KEY_HOME
+Classic.A       = BTN_LEFT
+Classic.B       = BTN_RIGHT
+#Classic.X      =
+#Classic.Y      =
+#Classic.ZL     =
+#Classic.ZR     =
+#Classic.L      =
+#Classic.R      =
+
+# I haven't tested this yet
+Wiimote.Rumble  = On

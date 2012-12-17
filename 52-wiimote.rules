@@ -1,0 +1,6 @@
+# -*- mode: conf; -*-
+
+# Allow users in the "plugdev" group to start `wminput` without having to
+# `sudo`. This certainly could be done with a dedicated `uinput` group, but I
+# didn't feel like doing that. the `MODE` specification is probably not needed.
+KERNEL=="uinput", GROUP="plugdev", MODE="0660"
